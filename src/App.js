@@ -1,11 +1,12 @@
-import Messages from "./components/Messages/Messages";
+import MessageList from "./components/MessageList/MessageList";
 
-const message = 'Hello world';
 
 
 
 function App() {
-  return <Messages message={message} />
+
+  return <MessageList />
+
 }
 
 export default App;
