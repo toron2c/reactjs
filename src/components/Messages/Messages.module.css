@@ -1,6 +1,16 @@
 .message {
-    font-size: 100px;
-    text-align: center;
-    padding: 36px 0;
-    color: #6269da;
+    border: 2px solid #ccc;
+    width: 300px;
+    margin: 24px auto;
+    border-radius: 11px;
+}
+.author {
+    font-size: 9px;
+    color: blueviolet;
+    text-align: left;
+    padding: 0 0 0 6px;
+}
+.messageText {
+    font-size: 15px;
+    color: darkblue;
 }
